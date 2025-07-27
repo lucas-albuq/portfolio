@@ -45,8 +45,7 @@ export default function SkillsSection() {
                 variants={itemVariants}
                 whileHover={{ scale: 1.12, backgroundColor: '#3b82f6', color: '#fff', boxShadow: '0 4px 24px #3b82f6a0' }}
                 transition={{ type: 'spring', stiffness: 300 }}
-              >
-                <img src={skill.icon} alt={skill.name} className="w-6 h-6" />
+              
                 <span>{skill.name}</span>
               </motion.div>
             ))}
