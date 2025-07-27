@@ -1,7 +1,13 @@
 import { useEffect } from "react";
 
+function isMobile() {
+  return window.innerWidth < 768;
+}
+
 export default function Cursor() {
   useEffect(() => {
+    if (isMobile()) return;
+
     const cursor = document.createElement("div");
     cursor.className = "custom-cursor";
     document.body.appendChild(cursor);

@@ -27,7 +27,7 @@ export default function Header() {
         >
           <img src={logo} alt="Logo" className="h-6 w-auto" />
         </motion.div>
-        <nav className="flex gap-6 text-sm">
+        <nav className="flex gap-6 text-sm md:flex hidden">
           {navLinks.map((link) => (
             <motion.a
               key={link.href}
