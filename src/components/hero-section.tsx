@@ -17,17 +17,17 @@ export default function HeroSection() {
           <h1 className="text-5xl font-bold mb-6">Lucas Albuquerque</h1>
           <p className="text-xl text-white/80 mb-8">Desenvolvedor FullStack | UI/UX Designer</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button
-              className="bg-blue-600 hover:bg-blue-700 transition-all shadow-lg flex items-center gap-2 text-lg px-6 py-3"
-              as="a"
-              href="https://drive.google.com/file/d/1AvNxA3LIsri7If4_EYUUaJTiFgtGze2J/view?usp=sharing"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaDownload className="text-white text-xl" />
-              Baixe meu currículo
-            </Button>
-          </div>
+  <a
+    className="bg-blue-600 hover:bg-blue-700 transition-all shadow-lg flex items-center gap-2 text-lg px-6 py-3 rounded text-white"
+    href="https://drive.google.com/file/d/1AvNxA3LIsri7If4_EYUUaJTiFgtGze2J/view?usp=sharing"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <FaDownload className="text-white text-xl" />
+    Baixe meu currículo
+  </a>
+</div>
+
         </motion.div>
       </div>
     </section>
