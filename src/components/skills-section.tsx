@@ -38,7 +38,7 @@ export default function SkillsSection() {
             transition={{ duration: 0.6 }}
           >Hard Skills</motion.h3>
           <div className="grid grid-cols-2 gap-4">
-            {hardSkills.map((skill, idx) => (
+            {hardSkills.map(skill => (
               <motion.div
                 key={skill.name}
                 className="flex items-center gap-2 bg-white/10 rounded-xl p-3 text-white backdrop-blur-lg border border-white/20 shadow-lg relative"
@@ -60,7 +60,7 @@ export default function SkillsSection() {
             transition={{ duration: 0.6 }}
           >Soft Skills</motion.h3>
           <div className="grid grid-cols-2 gap-4">
-            {softSkills.map((skill, idx) => (
+            {softSkills.map(skill => (
               <motion.div
                 key={skill.name}
                 className="flex items-center gap-2 bg-white/10 rounded-xl p-3 text-white backdrop-blur-lg border border-white/20 shadow-lg relative"

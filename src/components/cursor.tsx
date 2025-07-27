@@ -11,7 +11,6 @@ export default function Cursor() {
     inner.className = "custom-cursor-inner";
     cursor.appendChild(inner);
 
-    let isActive = false;
     let isLinkHover = false;
 
     const move = (e: MouseEvent) => {
@@ -20,11 +19,9 @@ export default function Cursor() {
     };
 
     const down = () => {
-      isActive = true;
       cursor.classList.add("active");
     };
     const up = () => {
-      isActive = false;
       cursor.classList.remove("active");
     };
 
