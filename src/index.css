@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+* {
+  cursor: none !important;
+}
+
+.custom-cursor {
+  width: 32px;
+  height: 32px;
+  border: 2px solid #2563eb;
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  transform: translate(-50%, -50%) scale(1);
+  z-index: 9999;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition:
+    transform 0.15s cubic-bezier(.22,1,.36,1),
+    border-color 0.2s;
+}
+
+.custom-cursor-inner {
+  width: 8px;
+  height: 8px;
+  background: #2563eb;
+  border-radius: 50%;
+  transition:
+    width 0.2s cubic-bezier(.22,1,.36,1),
+    height 0.2s cubic-bezier(.22,1,.36,1),
+    background 0.2s;
+}
+
+.custom-cursor.active .custom-cursor-inner {
+  width: 32px;
+  height: 32px;
+  background: #2563eb;
+}
+
+.custom-cursor.link-hover {
+  border-color: #fff;
+  .custom-cursor-inner {
+    background: #fff;
+  }
+}

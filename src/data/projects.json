@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Site da DIATINF",
+    "description": "Website institucional desenvolvido para a Diretoria de Gestão e Tecnologia da Informação do IFRN.",
+    "technologies": ["HTML", "CSS", "JavaScript", "PHP", "WordPress", "Figma"],
+    "link": "https://diatinf.ifrn.edu.br/"
+  },
+  {
+    "name": "Site da DIREX",
+    "description": "Website institucional desenvolvido para a Diretoria de Extensão do IFRN.",
+    "technologies": ["HTML", "CSS", "WordPress", "Figma"],
+    "link": "https://direx.cnat.ifrn.edu.br/"
+  },
+  {
+    "name": "Site do ENCOM 2024",
+    "description": "Website do evento ENCOM 2024, desenvolvido para o Instituto Federal do Rio Grande do Norte.",
+    "technologies": ["HTML", "CSS", "WordPress", "Figma"],
+    "link": "https://encom.ifrn.edu.br/"
+  },
+  {
+    "name": "IFormandos",
+    "description": "Rede social desenvolvida como projeto integrador do 3º ano de Informática para Internet.",
+    "technologies": ["HTML", "CSS", "JavaScript", "Python", "Django", "Figma"],
+    "link": "https://github.com/PI-InfoWeb-CNAT/2024-rede-social-spfv"
+  },
+  {
+    "name": "Site da DIACIN",
+    "description": "Website institucional desenvolvido para a Diretoria Acadêmica de Indústria do IFRN.",
+    "technologies": ["HTML", "CSS", "JavaScript", "Python", "Django", "Figma"],
+    "link": "https://diacin.cnat.ifrn.edu.br/"
+  },
+  {
+    "name": "Site do LAMIE",
+    "description": "Website institucional desenvolvido para o Laboratório de Manutenção de Instalações Elétricas do IFRN.",
+    "technologies": ["HTML", "CSS", "WordPress", "Figma"],
+    "link": "https://lamie.ifrn.edu.br/"
+  },
+  {
+    "name": "Site do Liberty Eventos",
+    "description": "Website desenvolvido para o salão de festas e eventos Liberty Eventos.",
+    "technologies": ["HTML", "CSS", "WordPress", "Figma"],
+    "link": "https://libertyeventos.com.br/"
+  },
+  {
+    "name": "Site do NEPPCON",
+    "description": "Website desenvolvido para o Núcleo de Extensão e Práticas Profissional da Construção Civil do IFRN.",
+    "technologies": ["HTML", "CSS", "WordPress", "Figma"],
+    "link": "https://neppcon.ifrn.edu.br/"
+  },
+  {
+    "name": "Site do ProFuturo",
+    "description": "Website institucional desenvolvido para o projeto ProFuturo.",
+    "technologies": ["HTML", "CSS", "JavaScript", "PHP", "WordPress", "Figma"],
+    "link": "https://profuturo.ifrn.edu.br/"
+  },
+  {
+    "name": "Site do Tech Dev Brasil",
+    "description": "Website desenvolvido para a plataforma de cursos Tech Dev Brasil.",
+    "technologies": ["HTML", "CSS", "WordPress", "Figma"],
+    "link": "https://techdevbrasil.com/"
+  },
+  {
+    "name": "Site do WTADS/WINFO",
+    "description": "Website institucional desenvolvido para o Workshop de Tecnologia em Análise em Desenvolvimento de Sistemas e Informática para Internet.",
+    "technologies": ["HTML", "CSS", "WordPress", "Figma"],
+    "link": "https://wtads.ifrn.edu.br/"
+  },
+  {
+    "name": "Site da EXPOTEC",
+    "description": "Website institucional desenvolvido para o evento EXPOTEC do IFRN.",
+    "technologies": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
+    "link": "https://expotec.ifrn.edu.br/"
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "company": "IFRN - Centro de Soluções Aplicadas",
+    "role": "Desenvolvedor Web",
+    "period": "2023 - Presente",
+    "description": "Desenvolvimento de sistemas web com foco na criação e manutenção de websites institucionais, utilizando principalmente WordPress, além de HTML, CSS, JavaScript e PHP.",
+    "type": "profissional"
+  },
+  {
+    "company": "IFRN Campus Natal - Central",
+    "role": "Técnico Integrado em Informática para Internet",
+    "period": "2022 - 2025",
+    "description": "Curso técnico integrado com ênfase em desenvolvimento web, envolvendo linguagens como HTML, CSS, JavaScript, React, Python e Django, além de banco de dados, redes e design de interfaces.",
+    "type": "academica"
+  }
+]

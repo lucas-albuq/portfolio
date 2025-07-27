@@ -1,0 +1,20 @@
+[
+  { "type": "hard", "name": "HTML", "icon": "src/assets/icons/html.svg" },
+  { "type": "hard", "name": "CSS", "icon": "src/assets/icons/css.svg" },
+  { "type": "hard", "name": "JavaScript", "icon": "src/assets/icons/js.svg" },
+  { "type": "hard", "name": "React", "icon": "src/assets/icons/react.svg" },
+  { "type": "hard", "name": "Tailwind CSS", "icon": "src/assets/icons/tailwind.svg" },
+  { "type": "hard", "name": "Django", "icon": "src/assets/icons/django.svg" },
+  { "type": "hard", "name": "Python", "icon": "src/assets/icons/python.svg" },
+  { "type": "hard", "name": "PostgreSQL", "icon": "src/assets/icons/postgresql.svg" },
+  { "type": "hard", "name": "Wordpress", "icon": "src/assets/icons/wordpress.svg" },
+  { "type": "hard", "name": "Git", "icon": "src/assets/icons/git.svg" },
+  { "type": "hard", "name": "Figma", "icon": "src/assets/icons/figma.svg" },
+
+  { "type": "soft", "name": "Comunicação", "icon": "src/assets/icons/comunicacao.svg" },
+  { "type": "soft", "name": "Trabalho em equipe", "icon": "src/assets/icons/equipe.svg" },
+  { "type": "soft", "name": "Liderança", "icon": "src/assets/icons/lideranca.svg" },
+  { "type": "soft", "name": "Resolução de problemas", "icon": "src/assets/icons/problemas.svg" },
+  { "type": "soft", "name": "Organização", "icon": "src/assets/icons/organizacao.svg" },
+  { "type": "soft", "name": "Adaptabilidade", "icon": "src/assets/icons/adaptabilidade.svg" }
+]
